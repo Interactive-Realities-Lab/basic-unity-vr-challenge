@@ -6,13 +6,13 @@ This repository contains a bare Unity project set up for VR development. Your ta
 ## Challenge
 Create a simple VR interaction scenario with the following requirements:
 
-1. Implement a VR player controller that allows for teleportation movement.
+1. Implement a VR player controller that allows for teleportation movement
 2. Create three interactable objects in the scene:
    - A cube that changes color when grabbed
    - A sphere that can be thrown and bounces realistically
    - A button that, when pressed, spawns a new random object in the scene
 3. Implement a simple UI element that displays the number of objects in the scene
-4. Ensure the project runs smoothly on a VR headset (e.g., Oculus Quest 2)
+4. Ensure the project runs smoothly on a VR headset (e.g., Oculus Quest 2 or Mock HMD).
 
 Note: You are encouraged to go beyond these minimal requirements and showcase your creativity and skills.
 
