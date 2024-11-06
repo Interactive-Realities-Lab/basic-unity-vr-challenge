@@ -1,40 +1,36 @@
-# Unity VR Development Test Project for Interactive Reality Lab (Dr. Kopper)
+## VR Interaction Scenario:
 
-## Overview
-This repository contains a bare Unity project set up for VR development. Your task is to demonstrate your Unity and VR development skills by completing the challenge described below.
+Welcome to the Unity VR Interactive project! This experience features three engaging, interactive rooms designed to provide an immersive VR experience.
+In each room, you will engage with different objects and mechanics to explore and discover new interactions.
 
-## Challenge
-Create a simple VR interaction scenario with the following requirements:
+## Room 1: Throw Ball
 
-1. Implement a VR player controller that allows for teleportation movement.
-2. Create three interactable objects in the scene:
-   - A cube that changes color when grabbed
-   - A sphere that can be thrown and bounces realistically
-   - A button that, when pressed, spawns a new random object in the scene
-3. Implement a simple UI element that displays the number of objects in the scene
-4. Ensure the project runs smoothly on a VR headset (e.g., Oculus Quest 2)
+Objective: Interact with a tennis ball and a syble.
 
-Note: You are encouraged to go beyond these minimal requirements and showcase your creativity and skills.
+- How it works: Throw the tennis ball at the syble.
+- Upon contact, the syble will change color to green.
 
-## Deadline
-The project is due 2 weeks after it's assigned.
+## Room 2: Grab Cube
 
-## Submission
-To submit your solution:
-1. Fork this repository
-2. Complete the challenge
-3. Push your changes to your forked repository
-4. Submit a pull request to the original repository
-5. Modify this README.md file to include documentation about your solution and instructions to deploy
-6. Contact Dr. Kopper to schedule a meeting and demonstrate the project
+Objective: Interact with gray cubes scattered throughout the room.
+How it works:
 
-## Evaluation Criteria
-Your submission will be evaluated based on:
-- Correct implementation of VR interactions
-- Code quality and organization
-- Performance optimization
-- Creativity in solving the challenge
-- Quality of documentation and deployment instructions
+- Pick up a gray cube, and it will turn blue.
+- If you place a blue cube on top of another cube, it will turn green.
+- If the cube is on the ground, it will return to its original gray color.
 
+## Room 3: Teleport
 
-Good luck!
+Objective: Explore the room using teleportation.
+How it works: Use the teleportation mechanic to move around and explore different locations within the room.
+
+## Button Interaction
+
+Objective: Spawn random objects into the environment, and display the total number of objects generated.
+How it works:
+
+- Pressing either of the buttons will randomly spawn either a tennis ball or a cube into the environment.
+- A counter next to the buttons will display how many objects have been spawned in total.
+
+If you have any questions feel free to reach out via email at:"darghandiana@gmail.com"
+Enjoy your VR experience!
