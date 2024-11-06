@@ -1,3 +1,5 @@
+This project is based on the source from the Unity VR Development pathway at https://learn.unity.com/learn/pathway/vr-development and extended to meet the challenge requirements.
+
 ## VR Interaction Scenario:
 
 Welcome to the Unity VR Interactive project! This experience features three engaging, interactive rooms designed to provide an immersive VR experience.
