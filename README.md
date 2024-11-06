@@ -24,8 +24,8 @@ To submit your solution:
 1. Fork this repository
 2. Complete the challenge
 3. Push your changes to your forked repository
-4. Submit a pull request to the original repository
-5. Modify this README.md file to include documentation about your solution and instructions to deploy
+4. Modify this README.md file to include documentation about your solution and instructions to deploy
+5. Submit a pull request to the original repository
 6. Contact Dr. Kopper to schedule a meeting and demonstrate the project
 
 ## Evaluation Criteria
