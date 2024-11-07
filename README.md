@@ -24,7 +24,7 @@ How it works:
 ## Room 3: Teleport
 
 Objective: Explore the room using teleportation.
-How it works: Use the teleportation mechanic to move around and explore different locations within the room.
+How it works: Use the teleportation mechanic to move around and explore different locations within all around scene.
 
 ## Button Interaction
 
