@@ -12,7 +12,7 @@ Create a simple VR interaction scenario with the following requirements:
    - A sphere that can be thrown and bounces realistically
    - A button that, when pressed, spawns a new random object in the scene
 3. Implement a simple UI element that displays the number of objects in the scene
-4. Ensure the project runs smoothly on a VR headset (e.g., Oculus Quest 2 or Mock HMD).
+4. Ensure the project runs smoothly on a VR headset (e.g., Oculus Quest 2, Mock HMD, Meta XR Simulator, etc...).
 
 Note: You are encouraged to go beyond these minimal requirements and showcase your creativity and skills.
 
