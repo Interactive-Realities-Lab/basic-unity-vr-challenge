@@ -36,5 +36,10 @@ Your submission will be evaluated based on:
 - Creativity in solving the challenge
 - Quality of documentation and deployment instructions
 
+## Solution
+
+1. character animation
+2. AI nav mesh
+3. 
 
 Good luck!
