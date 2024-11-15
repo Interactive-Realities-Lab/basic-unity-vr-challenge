@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 252fc441b5669949869ea567dbb4ea66
     GuidInternal: 
-    m_lastTime: -8584707293015486539
-    List: []
+    m_lastTime: -8584699550732520584
+    List:
+    - name: VRSoundFX
+      guid: 2cb8e5642607d74db287eec30694fab7
+      id: 301762844
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 252fc441b5669949869ea567dbb4ea66
+      - ElementName: VRSoundFX
+        ObjectType: 7
+        guid: 2cb8e5642607d74db287eec30694fab7
+      Path: SoundBanks\Default Work Unit\VRSoundFX
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,93 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 321152025e495f478f19ddc731752e56
     GuidInternal: 
-    m_lastTime: -8584707293015895179
-    List: []
+    m_lastTime: -8584699514971315772
+    List:
+    - name: Play_GlowStick
+      guid: 1d7cc7b123298a4faa3610eedfca28ca
+      id: 3843125455
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 321152025e495f478f19ddc731752e56
+      - ElementName: Play_GlowStick
+        ObjectType: 3
+        guid: 1d7cc7b123298a4faa3610eedfca28ca
+      Path: Events\Default Work Unit\Play_GlowStick
+      maxAttenuation: 0
+      maxDuration: 0.3499773
+      minDuration: 0.3499773
+    - name: Play_Minecraft_Zombie_death
+      guid: 05cfdfe5f8300d4c95a551bf6648c623
+      id: 3286761951
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 321152025e495f478f19ddc731752e56
+      - ElementName: Play_Minecraft_Zombie_death
+        ObjectType: 3
+        guid: 05cfdfe5f8300d4c95a551bf6648c623
+      Path: Events\Default Work Unit\Play_Minecraft_Zombie_death
+      maxAttenuation: 0
+      maxDuration: 0.78473926
+      minDuration: 0.78473926
+    - name: Play_Shoot
+      guid: c900b5fde72bd44e8553c352530e25e8
+      id: 2641650631
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 321152025e495f478f19ddc731752e56
+      - ElementName: Play_Shoot
+        ObjectType: 3
+        guid: c900b5fde72bd44e8553c352530e25e8
+      Path: Events\Default Work Unit\Play_Shoot
+      maxAttenuation: 0
+      maxDuration: 1.138458
+      minDuration: 1.138458
+    - name: Play_TNT
+      guid: 292ba890bc69584c86e6aafaa1167b6b
+      id: 2436028460
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 321152025e495f478f19ddc731752e56
+      - ElementName: Play_TNT
+        ObjectType: 3
+        guid: 292ba890bc69584c86e6aafaa1167b6b
+      Path: Events\Default Work Unit\Play_TNT
+      maxAttenuation: 0
+      maxDuration: 3.2500226
+      minDuration: 3.2500226
+    - name: Play_ZombieIdle
+      guid: 115db8f94e33b14f99246864103b6e71
+      id: 2561681698
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 321152025e495f478f19ddc731752e56
+      - ElementName: Play_ZombieIdle
+        ObjectType: 3
+        guid: 115db8f94e33b14f99246864103b6e71
+      Path: Events\Default Work Unit\Play_ZombieIdle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +238,7 @@ MonoBehaviour:
     m_lastTime: -8584707293015805399
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000f00000010000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

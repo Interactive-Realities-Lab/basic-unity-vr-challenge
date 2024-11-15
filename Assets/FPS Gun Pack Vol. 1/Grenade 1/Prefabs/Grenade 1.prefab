@@ -305,6 +305,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4073807cb75f7a34ba212d3d9c35b331, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explodeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 17f18b16b5fd79545a059a4e796fb1e5, type: 2}
 --- !u!1001 &6279367809511424814
 PrefabInstance:
   m_ObjectHideFlags: 0

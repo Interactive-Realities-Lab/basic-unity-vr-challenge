@@ -1308,6 +1308,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 65
   gunFire: {fileID: 3860658431400446025}
+  gunFireSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a5e22160549e63c4a84b26db6f46f947, type: 2}
 --- !u!120 &4348100989003930970
 LineRenderer:
   serializedVersion: 2

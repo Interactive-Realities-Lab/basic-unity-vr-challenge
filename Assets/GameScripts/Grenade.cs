@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Event = AK.Wwise.Event;
 
 public class Grenade : MonoBehaviour
 {
+    public Event explodeSound;
     private readonly bool Triggered = false;
     private bool Exploded;
     private ParticleSystem particleSystem;
@@ -37,8 +39,8 @@ public class Grenade : MonoBehaviour
     {
         if (!Exploded)
         {
-            Debug.LogError("EXPLODEEEEEEEEEEEEEEEEEEEEEEEEEE");
             var grenade = transform.Find("GrenadeMesh");
+            explodeSound.Post(gameObject);
             grenade.gameObject.SetActive(false);
             particleSystem.Play();
             StartCoroutine(DestroyAfterParticle(particleSystem));

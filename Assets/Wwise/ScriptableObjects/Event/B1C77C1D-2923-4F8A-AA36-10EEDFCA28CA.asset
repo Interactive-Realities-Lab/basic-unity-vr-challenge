@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28101fe9977312544b1a398b6a93713b, type: 3}
+  m_Name: B1C77C1D-2923-4F8A-AA36-10EEDFCA28CA
+  m_EditorClassIdentifier: 
+  objectName: Play_GlowStick
+  id: 3843125455
+  guid: B1C77C1D-2923-4F8A-AA36-10EEDFCA28CA

@@ -1,6 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{991072A4-D49F-4500-BD8C-810747B2153C}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{991072A4-D49F-4500-BD8C-810747B2153C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{991072A4-D49F-4500-BD8C-810747B2153C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Minecraft Zombie death" ID="{EC5442E6-A33C-40D8-BB16-7A4D1505EEFF}" ShortID="206598713">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{228A037D-87FC-4098-A8E9-B24A7955E630}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A20E511-FEC2-4203-B149-E5261839861F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Minecraft Zombie death" ID="{FF5E46AC-CE84-4162-846F-ABD971285759}">
+							<Language>SFX</Language>
+							<AudioFile>Minecraft Zombie death.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="188981033"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Minecraft Zombie death" ID="{FF5E46AC-CE84-4162-846F-ABD971285759}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="TNT" ID="{5B691973-0E18-4178-A6E9-EE0F187595D8}" ShortID="767014371">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{228A037D-87FC-4098-A8E9-B24A7955E630}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A20E511-FEC2-4203-B149-E5261839861F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TNT" ID="{0E68F8DB-94E3-4B29-A8B4-22B6194B11E6}">
+							<Language>SFX</Language>
+							<AudioFile>TNT.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="149844982"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TNT" ID="{0E68F8DB-94E3-4B29-A8B4-22B6194B11E6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Shoot" ID="{B26810BB-E90D-470D-AB4C-F82815B97981}" ShortID="1063265291">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{228A037D-87FC-4098-A8E9-B24A7955E630}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A20E511-FEC2-4203-B149-E5261839861F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shoot" ID="{58BCC7E5-E0DD-423E-BD1C-BF86BA9B356D}">
+							<Language>SFX</Language>
+							<AudioFile>Shoot.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="386259711"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Shoot" ID="{58BCC7E5-E0DD-423E-BD1C-BF86BA9B356D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GlowStick" ID="{5A63C8FA-6606-44B9-9F88-12E92D85E119}" ShortID="1056780056">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{228A037D-87FC-4098-A8E9-B24A7955E630}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A20E511-FEC2-4203-B149-E5261839861F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GlowStick" ID="{DA806046-6E31-4343-BC82-FA393A0B22D0}">
+							<Language>SFX</Language>
+							<AudioFile>GlowStick.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="994464535"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GlowStick" ID="{DA806046-6E31-4343-BC82-FA393A0B22D0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="ZombieIdle" ID="{79D01946-6A34-40CC-8A2A-C21FE7AD1653}" ShortID="587809460">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{228A037D-87FC-4098-A8E9-B24A7955E630}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A20E511-FEC2-4203-B149-E5261839861F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Minecraft Zombie say2" ID="{78B41895-32FA-41FE-AC28-2D7800755877}" ShortID="773365289">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{228A037D-87FC-4098-A8E9-B24A7955E630}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A20E511-FEC2-4203-B149-E5261839861F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Minecraft Zombie say2" ID="{81B1D880-BECA-482F-8F80-B838E9060B0F}">
+									<Language>SFX</Language>
+									<AudioFile>Minecraft Zombie say2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="168497210"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Minecraft Zombie say2" ID="{81B1D880-BECA-482F-8F80-B838E9060B0F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Minecraft Zombie say1" ID="{0E6D301E-C8C7-40FA-A1E0-97916633D431}" ShortID="719967360">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{228A037D-87FC-4098-A8E9-B24A7955E630}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A20E511-FEC2-4203-B149-E5261839861F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Minecraft Zombie say1" ID="{5F22046D-CEEA-410E-8155-A39E966C8954}">
+									<Language>SFX</Language>
+									<AudioFile>Minecraft Zombie say1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="854697848"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Minecraft Zombie say1" ID="{5F22046D-CEEA-410E-8155-A39E966C8954}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Minecraft Zombie say3" ID="{16691795-76A8-4123-8545-8AB48B49C411}" ShortID="383799988">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{228A037D-87FC-4098-A8E9-B24A7955E630}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A20E511-FEC2-4203-B149-E5261839861F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Minecraft Zombie say3" ID="{0979A4B2-A401-41A6-936F-25D29EA3E5E5}">
+									<Language>SFX</Language>
+									<AudioFile>Minecraft Zombie say3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="800057672"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Minecraft Zombie say3" ID="{0979A4B2-A401-41A6-936F-25D29EA3E5E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

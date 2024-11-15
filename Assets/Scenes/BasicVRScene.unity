@@ -1070,6 +1070,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214247011565, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 42.70105
@@ -1805,9 +1813,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -5458,6 +5474,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214247011565, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 31.426424
@@ -5552,9 +5576,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -6746,6 +6778,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -7822,6 +7862,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -8311,9 +8359,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -9102,9 +9158,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -10211,6 +10275,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -10887,6 +10959,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214247011565, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.53444
@@ -11928,206 +12008,6 @@ Transform:
   - {fileID: 234265006}
   m_Father: {fileID: 1493370345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &411115137
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 411115143}
-  - component: {fileID: 411115142}
-  - component: {fileID: 411115141}
-  - component: {fileID: 411115140}
-  - component: {fileID: 411115139}
-  - component: {fileID: 411115138}
-  - component: {fileID: 411115144}
-  m_Layer: 0
-  m_Name: '[BuildingBlock] Ray Interaction'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &411115138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411115137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb86ba9d4c5126e48bfef9b0c9550e9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
-  _data: {fileID: 0}
-  _pointableElement: {fileID: 0}
-  _surface: {fileID: 1029048831}
-  _selectSurface: {fileID: 0}
-  _movementProvider: {fileID: 0}
-  _tiebreakerScore: 0
---- !u!65 &411115139
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411115137}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &411115140
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411115137}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &411115141
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411115137}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &411115142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411115137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blockId: 76a013d1-7c16-4a60-9c1b-79b3691c0438
-  instanceId: f6914ba9-783d-449b-8b7d-c99a062ee727
-  version: 1
-  installationRoutineCheckpoint:
-    _installationRoutineId: 
-    _installationVariants: []
---- !u!4 &411115143
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411115137}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1029048833}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &411115144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411115137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 411115138}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 411115140}
-        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-        m_MethodName: set_material
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: 76c0a1e46b5d0c148ac21c0f3744268c, type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &418311698
 GameObject:
   m_ObjectHideFlags: 0
@@ -13907,7 +13787,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5274771969265547868, guid: 890b51a20e11dd248be1071c22339f82, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.21
+      value: -11.67
       objectReference: {fileID: 0}
     - target: {fileID: 5274771969265547868, guid: 890b51a20e11dd248be1071c22339f82, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21648,6 +21528,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -23082,9 +22970,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -25396,9 +25292,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -27252,9 +27156,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -30092,9 +30004,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -30368,9 +30288,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -31543,9 +31471,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -31604,73 +31540,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7317118214247011565, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
   m_PrefabInstance: {fileID: 1025048004}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1029048830
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1029048833}
-  - component: {fileID: 1029048832}
-  - component: {fileID: 1029048831}
-  m_Layer: 0
-  m_Name: Collider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1029048831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029048830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2140d2b457bea84881488302059889b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _collider: {fileID: 1029048832}
---- !u!65 &1029048832
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029048830}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &1029048833
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029048830}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 411115143}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1042275596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32619,6 +32488,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214247011565, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.073154
@@ -34053,9 +33930,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -35423,6 +35308,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214247011565, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 44.34792
@@ -40730,9 +40623,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214247011565, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 37.004
@@ -40979,6 +40880,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -44959,9 +44868,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214247011565, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 36.010803
@@ -45943,9 +45860,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -46966,9 +46891,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -48661,9 +48594,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -53150,9 +53091,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -53641,9 +53590,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -55417,6 +55374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1855492016}
   - component: {fileID: 1855492015}
+  - component: {fileID: 1855492017}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -55464,6 +55422,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1855492017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855492014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a2bd143e3e335c479fcd4b7f6c28e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: dab5cd8932942d6498ec4da4c6a59702, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1857063844
 GameObject:
   m_ObjectHideFlags: 0
@@ -57504,9 +57487,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214247011565, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 37.014446
@@ -57575,7 +57566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9189167128507813254, guid: 9bac10e691f2b134e8a762aac4cb9231, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.05
+      value: -11.79
       objectReference: {fileID: 0}
     - target: {fileID: 9189167128507813254, guid: 9bac10e691f2b134e8a762aac4cb9231, type: 3}
       propertyPath: m_LocalPosition.y
@@ -59143,9 +59134,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 27865273}
     m_Modifications:
     - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 547672162}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: actorState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3478461981308257285, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
+      propertyPath: ZombieCount
+      value: 
+      objectReference: {fileID: 1832902341}
     - target: {fileID: 7317118214237666171, guid: 16f88bac483bd004aa718dd62225897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -64140,7 +64139,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2157320772253954714, guid: 39b03e44bcc6b2047ad50d9521348ae9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.543
+      value: -11.38
       objectReference: {fileID: 0}
     - target: {fileID: 2157320772253954714, guid: 39b03e44bcc6b2047ad50d9521348ae9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -64200,5 +64199,4 @@ SceneRoots:
   - {fileID: 1910520110}
   - {fileID: 4029474968947382236}
   - {fileID: 1645282284}
-  - {fileID: 411115143}
   - {fileID: 1680137394}

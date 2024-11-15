@@ -296,6 +296,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LighterMaterial: {fileID: 2100000, guid: 76c0a1e46b5d0c148ac21c0f3744268c, type: 2}
   UnlightedMaterial: {fileID: 2100000, guid: 99274677097b4a34086a9619ff1612f1, type: 2}
+  lightChangeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5a3d6c9e5aecbca449cc9c1ec3c8dc3b, type: 2}
 --- !u!1 &8407183947669923654
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="301762844" Type="User" Language="SFX" Hash="{B6131A15-3DFA-2227-DAB1-DB3AC3921D5E}">
+			<ShortName>VRSoundFX</ShortName>
+			<Path>VRSoundFX.bnk</Path>
+			<Media>
+				<File Id="149844982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TNT.wav</ShortName>
+					<CachePath>SFX/TNT_818F3B66.wem</CachePath>
+				</File>
+				<File Id="168497210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Minecraft Zombie say2.wav</ShortName>
+					<CachePath>SFX/Minecraft Zombie say2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="188981033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Minecraft Zombie death.wav</ShortName>
+					<CachePath>SFX/Minecraft Zombie death_818F3B66.wem</CachePath>
+				</File>
+				<File Id="386259711" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shoot.wav</ShortName>
+					<CachePath>SFX/Shoot_818F3B66.wem</CachePath>
+				</File>
+				<File Id="800057672" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Minecraft Zombie say3.wav</ShortName>
+					<CachePath>SFX/Minecraft Zombie say3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="854697848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Minecraft Zombie say1.wav</ShortName>
+					<CachePath>SFX/Minecraft Zombie say1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="994464535" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GlowStick.wav</ShortName>
+					<CachePath>SFX/GlowStick_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3843125455" Name="Play_GlowStick" DurationType="OneShot" DurationMin="0.3499773" DurationMax="0.3499773">
+					<MediaRefs>
+						<MediaRef Id="994464535"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3286761951" Name="Play_Minecraft_Zombie_death" DurationType="OneShot" DurationMin="0.78473926" DurationMax="0.78473926">
+					<MediaRefs>
+						<MediaRef Id="188981033"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2641650631" Name="Play_Shoot" DurationType="OneShot" DurationMin="1.138458" DurationMax="1.138458">
+					<MediaRefs>
+						<MediaRef Id="386259711"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2436028460" Name="Play_TNT" DurationType="OneShot" DurationMin="3.2500226" DurationMax="3.2500226">
+					<MediaRefs>
+						<MediaRef Id="149844982"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2561681698" Name="Play_ZombieIdle" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="168497210"/>
+						<MediaRef Id="800057672"/>
+						<MediaRef Id="854697848"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{30A277F6-00AC-52E0-7C11-C2EC223A92FC}</FileHash>
+</SoundBanksInfo>

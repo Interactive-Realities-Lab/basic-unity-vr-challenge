@@ -1,9 +1,11 @@
 using UnityEngine;
+using Event = AK.Wwise.Event;
 
 public class Lighter : MonoBehaviour
 {
     public Material LighterMaterial;
     public Material UnlightedMaterial;
+    public Event lightChangeSound;
     private bool Lighted = true;
 
     private void Start()
@@ -26,6 +28,7 @@ public class Lighter : MonoBehaviour
     private void ChangeLighter()
     {
         Material glowMaterial;
+        lightChangeSound.Post(gameObject);
         var renderer = GetComponent<Renderer>();
         var pointLight = transform.Find("Point Light").GetComponent<Light>();
         //glowMaterial = renderer.material;

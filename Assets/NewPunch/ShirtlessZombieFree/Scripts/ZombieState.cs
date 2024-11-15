@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
+using Event = AK.Wwise.Event;
 using Random = UnityEngine.Random;
 
 public class ZombieState : MonoBehaviour
@@ -19,15 +20,18 @@ public class ZombieState : MonoBehaviour
     public int health = 3;
     public Transform player;
     public GameObject ZombieCount;
+    public Event zombieIdleSound;
+    public Event zombieDieSound;
 
     public Material litMatierial;
     public Material unlitMatierial;
 
     private Animator animator;
     private float aniOffset;
+    private bool navAble;
     private NavMeshAgent navAgent;
 
-    private int zombieCount = 31;
+    private int zombieCount;
 
     private void Start()
     {
@@ -36,12 +40,18 @@ public class ZombieState : MonoBehaviour
         AniUpdate();
     }
 
+    private void Update()
+    {
+        NavToActor();
+    }
+
     public void StateUpdate()
     {
         switch (health)
         {
             case 0:
                 actorState = ActorState.Die;
+                zombieCount = int.Parse(ZombieCount.GetComponent<TMP_Text>().text);
                 zombieCount--;
                 ZombieCount.GetComponent<TMP_Text>().text = zombieCount.ToString();
                 AniUpdate();
@@ -53,7 +63,7 @@ public class ZombieState : MonoBehaviour
                 if (actorState == ActorState.Idle)
                     actorState = ActorState.Walk;
                 else if (actorState == ActorState.Eat) actorState = ActorState.Climb;
-                NavToActor();
+                navAble = true;
                 AniUpdate();
                 break;
         }
@@ -68,9 +78,11 @@ public class ZombieState : MonoBehaviour
             case ActorState.Idle:
                 var idleState = Random.Range(1, 4);
                 animator.SetInteger("RandomIdle", idleState);
+                zombieIdleSound.Post(gameObject);
                 break;
             case ActorState.Eat:
                 animator.Play("Eat", 0, aniOffset);
+                zombieIdleSound.Post(gameObject);
                 break;
             case ActorState.Walk:
                 animator.Play("Walking", 0, aniOffset);
@@ -83,6 +95,7 @@ public class ZombieState : MonoBehaviour
                 animator.Play("Attack", 0, aniOffset);
                 break;
             case ActorState.Die:
+                zombieDieSound.Post(gameObject);
                 Destroy(gameObject);
                 break;
         }
@@ -98,6 +111,7 @@ public class ZombieState : MonoBehaviour
     private void NavToActor()
     {
         if (!player) return;
+        if (!navAble) return;
         navAgent.SetDestination(player.position);
     }
 }

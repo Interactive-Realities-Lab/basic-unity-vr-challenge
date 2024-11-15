@@ -2691,6 +2691,14 @@ MonoBehaviour:
   health: 3
   player: {fileID: 0}
   ZombieCount: {fileID: 0}
+  zombieIdleSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c13343d34b91839438e35e3c4a40dd11, type: 2}
+  zombieDieSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e91d568319a93ba43b989239488cc5f3, type: 2}
   litMatierial: {fileID: 2100000, guid: 7b3fafe259cd4114ea22d78cc17c029a, type: 2}
   unlitMatierial: {fileID: 2100000, guid: 4cde5aac7288f054380fe768f78a0311, type: 2}
 --- !u!136 &3641667695887054293

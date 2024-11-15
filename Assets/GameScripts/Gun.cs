@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using Event = AK.Wwise.Event;
 
 [RequireComponent(typeof(LineRenderer))]
 public class Gun : MonoBehaviour
@@ -7,6 +8,8 @@ public class Gun : MonoBehaviour
     public Transform rayOrigin;
     public LayerMask actorLayerMask;
     public GameObject gunFire;
+
+    public Event gunFireSound;
     private RaycastHit hitInfo;
     private LineRenderer lineRenderer;
     private Light spotLight;
@@ -49,6 +52,7 @@ public class Gun : MonoBehaviour
     {
         var zombie = hitInfo.collider.gameObject;
         StartCoroutine(FlashLight());
+        gunFireSound.Post(gameObject);
         if (zombie.layer == LayerMask.NameToLayer("Actor"))
         {
             zombie.GetComponent<ZombieState>().health -= 1;
