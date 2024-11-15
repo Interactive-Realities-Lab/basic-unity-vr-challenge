@@ -6,14 +6,18 @@ using Event = AK.Wwise.Event;
 public class Grenade : MonoBehaviour
 {
     public Event explodeSound;
+    public GameObject grenadeLightSource;
     private readonly bool Triggered = false;
     private bool Exploded;
+    private Light grenadeLight;
     private ParticleSystem particleSystem;
     private HashSet<Collider> zombies;
 
     private void Start()
     {
         particleSystem = transform.Find("Spheres Explode").GetComponent<ParticleSystem>();
+        grenadeLight = grenadeLightSource.GetComponent<Light>();
+        grenadeLight.intensity = 0f;
     }
 
     private void OnTriggerStay(Collider other)
@@ -43,6 +47,7 @@ public class Grenade : MonoBehaviour
             explodeSound.Post(gameObject);
             grenade.gameObject.SetActive(false);
             particleSystem.Play();
+            StartCoroutine(FlashLight());
             StartCoroutine(DestroyAfterParticle(particleSystem));
 
             zombies = transform.Find("DamageZone").GetComponent<GrenadeDestroy>().GetCollidersInTrigger();
@@ -59,5 +64,12 @@ public class Grenade : MonoBehaviour
 
             Exploded = true;
         }
+    }
+
+    private IEnumerator FlashLight()
+    {
+        grenadeLight.intensity = 4;
+        yield return new WaitForSeconds(0.1f);
+        grenadeLight.intensity = 0;
     }
 }
