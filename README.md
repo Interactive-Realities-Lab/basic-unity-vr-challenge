@@ -41,6 +41,7 @@ Good luck!
 
 ## Overview
 ![Scene.png](DocumentAssets%2FScene.png)
+
 This is a VR horror game developed based on Unity and Meta XR interaction libraries and Wwise audio middleware. 
 The player will be born in the mission starting location, get the weapons and equipment needed for the mission through the UI window, 
 find and defeat 31 zombies in the darkness to complete the mission.
@@ -58,6 +59,7 @@ A ray emitted from the controller assists the player in selecting and clicking o
 
 ### Glow Stick
 ![GlowStick.png](DocumentAssets%2FGlowStick.png)
+
 The glow stick is one of the only two lighting tools in the game. When obtained, it starts in an unlit state. 
 By grabbing it with the controller and pressing the trigger button, the glow stick can be lit. 
 Pressing the trigger again will extinguish it. The glow stick uses two different materials for its lit and unlit states. 
@@ -66,6 +68,7 @@ which is responsible for influencing the lighting in the scene.
 
 ### Grenades
 ![Grenade.png](DocumentAssets%2FGrenade.png)
+
 Like the glow stick, grenades also have realistic gravity properties. When the player throws a glow stick or a grenade to the ground, 
 they will bounce upwards, achieved by configuring the physical material properties of the ground.
 
@@ -77,6 +80,7 @@ where only the layers containing weapons and zombies detect the explosion.
 
 ### Rifle
 ![Rifle.png](DocumentAssets%2FRifle.png)
+
 The rifle is a long-range damage weapon equipped with a laser sight under the barrel to assist with aiming. 
 When holding the rifle with the left hand, pressing the left-hand trigger will fire the weapon.
 The rifle supports dual-handed control, allowing players to grab it with both hands to adjust its rotation for more precise aiming at zombies.
@@ -89,6 +93,7 @@ which is activated during shooting to create the lighting effects in the scene.
 
 ## UI interactions
 ![UI.png](DocumentAssets%2FUI.png)
+
 To the right of the player's spawn point is a UI panel that displays the number of weapons generated and the remaining number of zombies. 
 On the left side of the panel, a dropdown menu allows players to select the type of item to generate. 
 In the center, a slider lets players choose the quantity of the item to generate, ranging from a minimum of 0 to a maximum of 10.
@@ -99,6 +104,7 @@ which is used for raycast detection to facilitate interaction.
 
 ## Zombies
 ![Zombie.png](DocumentAssets%2FZombie.png)
+
 At the start of the game, zombies spawn at fixed locations in the environment and come in two states: 
 standing zombies and crawling zombies feeding on the ground. 
 Defeating a zombie requires three rifle shots or a single grenade explosion.
