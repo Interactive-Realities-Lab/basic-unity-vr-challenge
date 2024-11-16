@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2436028460	Play_TNT			\Default Work Unit\Play_TNT	
+	2561681698	Play_ZombieIdle			\Default Work Unit\Play_ZombieIdle	
+	2641650631	Play_Shoot			\Default Work Unit\Play_Shoot	
+	3286761951	Play_Minecraft_Zombie_death			\Default Work Unit\Play_Minecraft_Zombie_death	
+	3843125455	Play_GlowStick			\Default Work Unit\Play_GlowStick	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	149844982	TNT	C:\Users\millozhang\UnityProjs\basic-unity-vr-challenge\basic-unity-vr-challenge_WwiseProject\.cache\Windows\SFX\TNT_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\TNT		143422
+	168497210	Minecraft Zombie say2	C:\Users\millozhang\UnityProjs\basic-unity-vr-challenge\basic-unity-vr-challenge_WwiseProject\.cache\Windows\SFX\Minecraft Zombie say2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZombieIdle\Minecraft Zombie say2		124606
+	188981033	Minecraft Zombie death	C:\Users\millozhang\UnityProjs\basic-unity-vr-challenge\basic-unity-vr-challenge_WwiseProject\.cache\Windows\SFX\Minecraft Zombie death_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minecraft Zombie death		69310
+	386259711	Shoot	C:\Users\millozhang\UnityProjs\basic-unity-vr-challenge\basic-unity-vr-challenge_WwiseProject\.cache\Windows\SFX\Shoot_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shoot		100508
+	800057672	Minecraft Zombie say3	C:\Users\millozhang\UnityProjs\basic-unity-vr-challenge\basic-unity-vr-challenge_WwiseProject\.cache\Windows\SFX\Minecraft Zombie say3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZombieIdle\Minecraft Zombie say3		189118
+	854697848	Minecraft Zombie say1	C:\Users\millozhang\UnityProjs\basic-unity-vr-challenge\basic-unity-vr-challenge_WwiseProject\.cache\Windows\SFX\Minecraft Zombie say1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZombieIdle\Minecraft Zombie say1		133822
+	994464535	GlowStick	C:\Users\millozhang\UnityProjs\basic-unity-vr-challenge\basic-unity-vr-challenge_WwiseProject\.cache\Windows\SFX\GlowStick_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\GlowStick		30964
+

@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e807857b71d90df45b5b9dae5e8373b2, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0fc726e6a9089842929e379638465ddb
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 0fc726e6a9089842929e379638465ddb
+    GuidInternal: 
+    m_lastTime: -8584707293015556242
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 11e5206ac2fe0342b149e5261839861f
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 11e5206ac2fe0342b149e5261839861f
+    GuidInternal: 
+    m_lastTime: -8584707293016253988
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 11e5206ac2fe0342b149e5261839861f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 252fc441b5669949869ea567dbb4ea66
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 252fc441b5669949869ea567dbb4ea66
+    GuidInternal: 
+    m_lastTime: -8584699550732520584
+    List:
+    - name: VRSoundFX
+      guid: 2cb8e5642607d74db287eec30694fab7
+      id: 301762844
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 252fc441b5669949869ea567dbb4ea66
+      - ElementName: VRSoundFX
+        ObjectType: 7
+        guid: 2cb8e5642607d74db287eec30694fab7
+      Path: SoundBanks\Default Work Unit\VRSoundFX
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 321152025e495f478f19ddc731752e56
+    ParentPath: Events\Default Work Unit
+    guid: 321152025e495f478f19ddc731752e56
+    GuidInternal: 
+    m_lastTime: -8584699514971315772
+    List:
+    - name: Play_GlowStick
+      guid: 1d7cc7b123298a4faa3610eedfca28ca
+      id: 3843125455
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 321152025e495f478f19ddc731752e56
+      - ElementName: Play_GlowStick
+        ObjectType: 3
+        guid: 1d7cc7b123298a4faa3610eedfca28ca
+      Path: Events\Default Work Unit\Play_GlowStick
+      maxAttenuation: 0
+      maxDuration: 0.3499773
+      minDuration: 0.3499773
+    - name: Play_Minecraft_Zombie_death
+      guid: 05cfdfe5f8300d4c95a551bf6648c623
+      id: 3286761951
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 321152025e495f478f19ddc731752e56
+      - ElementName: Play_Minecraft_Zombie_death
+        ObjectType: 3
+        guid: 05cfdfe5f8300d4c95a551bf6648c623
+      Path: Events\Default Work Unit\Play_Minecraft_Zombie_death
+      maxAttenuation: 0
+      maxDuration: 0.78473926
+      minDuration: 0.78473926
+    - name: Play_Shoot
+      guid: c900b5fde72bd44e8553c352530e25e8
+      id: 2641650631
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 321152025e495f478f19ddc731752e56
+      - ElementName: Play_Shoot
+        ObjectType: 3
+        guid: c900b5fde72bd44e8553c352530e25e8
+      Path: Events\Default Work Unit\Play_Shoot
+      maxAttenuation: 0
+      maxDuration: 1.138458
+      minDuration: 1.138458
+    - name: Play_TNT
+      guid: 292ba890bc69584c86e6aafaa1167b6b
+      id: 2436028460
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 321152025e495f478f19ddc731752e56
+      - ElementName: Play_TNT
+        ObjectType: 3
+        guid: 292ba890bc69584c86e6aafaa1167b6b
+      Path: Events\Default Work Unit\Play_TNT
+      maxAttenuation: 0
+      maxDuration: 3.2500226
+      minDuration: 3.2500226
+    - name: Play_ZombieIdle
+      guid: 115db8f94e33b14f99246864103b6e71
+      id: 2561681698
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 321152025e495f478f19ddc731752e56
+      - ElementName: Play_ZombieIdle
+        ObjectType: 3
+        guid: 115db8f94e33b14f99246864103b6e71
+      Path: Events\Default Work Unit\Play_ZombieIdle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c4481d90e8446f43b87ca670253ce5f2
+    ParentPath: Game Parameters\Default Work Unit
+    guid: c4481d90e8446f43b87ca670253ce5f2
+    GuidInternal: 
+    m_lastTime: -8584707293014151022
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 786d9beac2db9843b1bf497136669886
+    ParentPath: States\Default Work Unit
+    guid: 786d9beac2db9843b1bf497136669886
+    GuidInternal: 
+    m_lastTime: -8584707293016393512
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 302efba4caae0343939f30d9a4400e53
+    ParentPath: Switches\Default Work Unit
+    guid: 302efba4caae0343939f30d9a4400e53
+    GuidInternal: 
+    m_lastTime: -8584707293016443342
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 31e5b658de42594f885ed8a146e6b4d8
+    ParentPath: Triggers\Default Work Unit
+    guid: 31e5b658de42594f885ed8a146e6b4d8
+    GuidInternal: 
+    m_lastTime: -8584707293015805399
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000f00000010000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

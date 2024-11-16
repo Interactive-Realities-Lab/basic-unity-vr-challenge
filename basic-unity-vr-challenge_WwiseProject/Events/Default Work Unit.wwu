@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{02521132-495E-475F-8F19-DDC731752E56}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{02521132-495E-475F-8F19-DDC731752E56}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Minecraft_Zombie_death" ID="{E5DFCF05-30F8-4C0D-95A5-51BF6648C623}">
+					<ChildrenList>
+						<Action Name="" ID="{83CB6863-D61E-424B-B4CF-E5AB1D8E267E}" ShortID="342578938">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Minecraft Zombie death" ID="{EC5442E6-A33C-40D8-BB16-7A4D1505EEFF}" WorkUnitID="{991072A4-D49F-4500-BD8C-810747B2153C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GlowStick" ID="{B1C77C1D-2923-4F8A-AA36-10EEDFCA28CA}">
+					<ChildrenList>
+						<Action Name="" ID="{D1B466F6-825B-474B-B02A-188F5B1FFB70}" ShortID="864915038">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GlowStick" ID="{5A63C8FA-6606-44B9-9F88-12E92D85E119}" WorkUnitID="{991072A4-D49F-4500-BD8C-810747B2153C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Shoot" ID="{FDB500C9-2BE7-4ED4-8553-C352530E25E8}">
+					<ChildrenList>
+						<Action Name="" ID="{52980AF9-5DEA-4CD1-96B7-5EA713D2B09F}" ShortID="247533109">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shoot" ID="{B26810BB-E90D-470D-AB4C-F82815B97981}" WorkUnitID="{991072A4-D49F-4500-BD8C-810747B2153C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TNT" ID="{90A82B29-69BC-4C58-86E6-AAFAA1167B6B}">
+					<ChildrenList>
+						<Action Name="" ID="{A5784AE7-D1B0-4885-8B03-889D1AF92531}" ShortID="267673789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TNT" ID="{5B691973-0E18-4178-A6E9-EE0F187595D8}" WorkUnitID="{991072A4-D49F-4500-BD8C-810747B2153C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ZombieIdle" ID="{F9B85D11-334E-4FB1-9924-6864103B6E71}">
+					<ChildrenList>
+						<Action Name="" ID="{BE6E5491-8BC4-47C6-B8C5-C5A130AFB494}" ShortID="278862916">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ZombieIdle" ID="{79D01946-6A34-40CC-8A2A-C21FE7AD1653}" WorkUnitID="{991072A4-D49F-4500-BD8C-810747B2153C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

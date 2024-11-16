@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="basic-unity-vr-challenge_WwiseProject" GUID="{227EA43A-C176-4301-8B0A-2A5D1ECDD042}" Generator="2023.1.8.8601"/>
+	<CacheRoot>../../../../basic-unity-vr-challenge_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{3D00A5D5-31C7-44E8-986E-76F1EC4243AD}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../basic-unity-vr-challenge_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{F3E9BED4-7C27-43E7-8879-9014260AE7D5}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../basic-unity-vr-challenge_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{539F03EA-5D12-4F77-B09F-34394182946A}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{8D572273-81DB-F7CF-A552-AC1E6E66A3D7}</FileHash>
+</ProjectInfo>
