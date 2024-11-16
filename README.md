@@ -40,7 +40,7 @@ Good luck!
 # Documentation
 
 ## Overview
-![Scene.png](DocumentAssets%2FScene.png)
+![Scene.png](DocumentAssets/Scene.png)
 
 This is a VR horror game developed based on Unity and Meta XR interaction libraries and Wwise audio middleware. 
 The player will be born in the mission starting location, get the weapons and equipment needed for the mission through the UI window, 
@@ -58,7 +58,7 @@ A ray emitted from the controller assists the player in selecting and clicking o
 ## Weapon Interaction
 
 ### Glow Stick
-![GlowStick.png](DocumentAssets%2FGlowStick.png)
+![GlowStick.png](DocumentAssets/GlowStick.png)
 
 The glow stick is one of the only two lighting tools in the game. When obtained, it starts in an unlit state. 
 By grabbing it with the controller and pressing the trigger button, the glow stick can be lit. 
@@ -67,7 +67,7 @@ The lit state material has a self-illuminating property. Additionally, the glow 
 which is responsible for influencing the lighting in the scene.
 
 ### Grenades
-![Grenade.png](DocumentAssets%2FGrenade.png)
+![Grenade.png](DocumentAssets/Grenade.png)
 
 Like the glow stick, grenades also have realistic gravity properties. When the player throws a glow stick or a grenade to the ground, 
 they will bounce upwards, achieved by configuring the physical material properties of the ground.
@@ -79,7 +79,7 @@ leaving other elements in the scene untouched. This is implemented using Unityâ€
 where only the layers containing weapons and zombies detect the explosion.
 
 ### Rifle
-![Rifle.png](DocumentAssets%2FRifle.png)
+![Rifle.png](DocumentAssets/Rifle.png)
 
 The rifle is a long-range damage weapon equipped with a laser sight under the barrel to assist with aiming. 
 When holding the rifle with the left hand, pressing the left-hand trigger will fire the weapon.
@@ -92,7 +92,7 @@ For the muzzle flash effect, a spotlight is placed at the muzzle,
 which is activated during shooting to create the lighting effects in the scene.
 
 ## UI interactions
-![UI.png](DocumentAssets%2FUI.png)
+![UI.png](DocumentAssets/UI.png)
 
 To the right of the player's spawn point is a UI panel that displays the number of weapons generated and the remaining number of zombies. 
 On the left side of the panel, a dropdown menu allows players to select the type of item to generate. 
@@ -103,7 +103,7 @@ The UI panel supports ray interaction with the controller. It is surrounded by a
 which is used for raycast detection to facilitate interaction.
 
 ## Zombies
-![Zombie.png](DocumentAssets%2FZombie.png)
+![Zombie.png](DocumentAssets/Zombie.png)
 
 At the start of the game, zombies spawn at fixed locations in the environment and come in two states: 
 standing zombies and crawling zombies feeding on the ground. 
@@ -119,7 +119,7 @@ Zombie movement to chase the player is managed by a Nav Mesh Agent,
 which uses the pre-baked Nav Mesh of the scene to automatically navigate toward the player's position.
 
 ## Wwise SFX
-![Wwise.png](DocumentAssets%2FWwise.png)
+![Wwise.png](DocumentAssets/Wwise.png)
 
 Wwise, used as the audio plugin for Unity, replaces Unity's native audio playback system. The game incorporates five types of sound effects: 
 glow stick toggle, zombie elimination, gunfire, grenade explosion, and zombie idle sounds. 
