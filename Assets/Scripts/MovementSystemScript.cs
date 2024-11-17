@@ -7,11 +7,6 @@ public class MovementSystemScript : MonoBehaviour
     public float speed = 1.0f;
     public Transform cameraTransform;
 
-    void Start()
-    {
-
-    }
-
     void Update()
     {
         var leftDevices = new List<InputDevice>();
@@ -23,12 +18,11 @@ public class MovementSystemScript : MonoBehaviour
             if (leftDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 leftThumbstickPosition) && leftThumbstickPosition != Vector2.zero)
             {
                 Vector3 forward = cameraTransform.forward;
-                forward.y = 0;
+                forward.y = 0; 
                 forward.Normalize();
                 Vector3 right = cameraTransform.right;
-                right.y = 0;
-                right.Normalize();
-
+                right.y = 0; 
+                right.Normalize(); 
                 Vector3 movement = (forward * leftThumbstickPosition.y + right * leftThumbstickPosition.x) * speed * Time.deltaTime;
                 transform.position += movement;
             }
