@@ -8,6 +8,7 @@ TagManager:
   - LeftHand
   - Mag
   - Ground
+  - Bullet
   layers:
   - Default
   - TransparentFX
