@@ -16,7 +16,7 @@ public class GunScript : MonoBehaviour
     public SimpleShoot _gun;
     public bool ishavingMag;
     public bool chamber;
-    public int _capacity = 0;
+    public int capacity = 0;
 
     void Start()
     {
@@ -47,10 +47,10 @@ public class GunScript : MonoBehaviour
     }
     public void SetChamber()
     {
-        if (_capacity > 0)
+        if (capacity > 0)
         {
             chamber = true;
-            _capacity--;
+            capacity--;
         }
         else
         {
@@ -73,15 +73,15 @@ public class GunScript : MonoBehaviour
     {
         _gun.MagOutSoundPlay();
         GameObject x = Instantiate(_mag, _dropPos.transform.position, Quaternion.identity);
-        x.GetComponent<MagScript>().capacity = _capacity;
+        x.GetComponent<MagScript>().capacity = capacity;
         _showMag.SetActive(false);
         ishavingMag = false;
-        _capacity = 0;
+        capacity = 0;
     }
     public void MagIn(int x)
     {
         _gun.MagInSoundPlay();
-        _capacity = x;
+        capacity = x;
         _showMag.SetActive(true);
         ishavingMag = true;
     }
@@ -93,7 +93,7 @@ public class GunScript : MonoBehaviour
     {
         _isGrabbed = false;
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "RightHand")
         {
