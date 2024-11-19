@@ -9,6 +9,10 @@ TagManager:
   - Mag
   - Ground
   - Bullet
+  - Shell
+  - AR15-RifleMag
+  - DesertMag
+  - GlockMag
   layers:
   - Default
   - TransparentFX
