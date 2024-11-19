@@ -143,6 +143,9 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: 00592a7f19239f048900d2b3cc075fc6, type: 2}
+  - {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+  - {fileID: 8314337966535142875, guid: 1608816cc78e83841892015746719b20, type: 2}
+  - {fileID: 4805040462198186269, guid: a42388c305fcc444ba53fbb785a47f36, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -164,6 +167,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
+    Android: com.ArshiaAriannejad.RegisKopper
     Standalone: com.DefaultCompany.3D-Project
   buildNumber:
     Standalone: 0
@@ -781,8 +785,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: IRLab Basic Unity Challenge
-  metroPackageVersion: 
+  metroPackageName: IRLabBasicUnityChallenge
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -790,7 +794,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: IRLab Basic Unity Challenge
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: IRLab Basic Unity Challenge
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -838,7 +842,13 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
     UNet: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -858,13 +868,13 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 2
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 9d0a1ebd-40c1-4dee-9faf-a86cd6cd9179
+  cloudProjectId: 3a62ff5f-bf95-4822-855d-15ebf429be5e
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: IRLab Basic Unity Challenge
-  organizationId: rakopper
+  organizationId: a_arian
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

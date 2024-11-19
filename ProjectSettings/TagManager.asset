@@ -13,6 +13,7 @@ TagManager:
   - AR15-RifleMag
   - DesertMag
   - GlockMag
+  - AKMag
   layers:
   - Default
   - TransparentFX
