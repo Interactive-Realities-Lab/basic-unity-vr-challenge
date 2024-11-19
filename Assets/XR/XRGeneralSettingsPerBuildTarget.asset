@@ -14,6 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: 4607940851788899872}
   m_InitManagerOnStart: 1
+--- !u!114 &-8127170411267344392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: Metro Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders:
+  - {fileID: 11400000, guid: f6110484aa447b8408a46b9de6eee50f, type: 2}
 --- !u!114 &-1974374348814922525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,12 +74,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: 
-  Keys: 07000000010000000d00000024000000
+  Keys: 07000000010000000d000000240000000e000000
   Values:
   - {fileID: 8314337966535142875}
   - {fileID: -1974374348814922525}
   - {fileID: -8177827904086488416}
   - {fileID: 3441105776774935881}
+  - {fileID: 7576867133812404635}
 --- !u!114 &3441105776774935881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +144,20 @@ MonoBehaviour:
   m_AutomaticRunning: 0
   m_Loaders:
   - {fileID: 11400000, guid: f6110484aa447b8408a46b9de6eee50f, type: 2}
+--- !u!114 &7576867133812404635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: Metro Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: -8127170411267344392}
+  m_InitManagerOnStart: 1
 --- !u!114 &8314337966535142875
 MonoBehaviour:
   m_ObjectHideFlags: 0
