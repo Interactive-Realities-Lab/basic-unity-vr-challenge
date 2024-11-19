@@ -247,7 +247,7 @@ MonoBehaviour:
   _gun: {fileID: 3087584115121563845}
   ishavingMag: 0
   chamber: 0
-  _capacity: 0
+  capacity: 0
 --- !u!1 &2110363703464231388
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,7 +1054,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 50
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
