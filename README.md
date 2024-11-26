@@ -1,40 +1,34 @@
-# Unity VR Development Test Project for Interactive Reality Lab (Dr. Kopper)
+# Unity VR Development Test Project
 
-## Overview
-This repository contains a bare Unity project set up for VR development. Your task is to demonstrate your Unity and VR development skills by completing the challenge described below.
+This project is my solution to the Unity VR Development Test Project provided by Dr. Kopper. It includes the following features:
 
-## Challenge
-Create a simple VR interaction scenario with the following requirements:
+## Features
+1. **Teleportation Movement**: Implemented a teleportation system using mouse click for selecting teleportation points.
+2. **Interactable Objects**:
+   - A **cube** that changes color when pressed "Space" bar.
+   - A **sphere** that can be thrown and bounces realistically.
+   - A **button** that spawns random objects in the scene.
+3. **UI Element**: Displays the current number of objects in the scene and updates dynamically.
+4. **Random Object Deletion**: A button allows the users to randomly delete one of the spawned objects.
 
-1. Implement a VR player controller that allows for teleportation movement
-2. Create three interactable objects in the scene:
-   - A cube that changes color when grabbed
-   - A sphere that can be thrown and bounces realistically
-   - A button that, when pressed, spawns a new random object in the scene
-3. Implement a simple UI element that displays the number of objects in the scene
-4. Ensure the project runs smoothly on a VR headset (e.g., Oculus Quest 2, Mock HMD, Meta XR Simulator, etc...).
+## Documentation
+### Teleportation
+- Implemented teleportation using a 'TeleportController' script.
+- Teleportation points are selected with the mouse, and the camera position is updated accordingly.
 
-Note: You are encouraged to go beyond these minimal requirements and showcase your creativity and skills.
+### Interactable Objects
+- **Cube**: Changes to a random color when typing the "space" bar using the 'ChangeColorOnGrab' script.
+- **Sphere**: Can be thrown with realistic physics using the 'ThrowBall' script.
+- **Button**: Spawns random objects, including cubes and spheres, using the 'ObjectSpawner' script.
 
-## Deadline
-The project is due 2 weeks after it's assigned.
+### Object Counter
+- A UI counter implemented with TextMeshPro dynamically displays the current number of objects in the scene.
 
-## Submission
-To submit your solution:
-1. Fork this repository
-2. Complete the challenge
-3. Push your changes to your forked repository
-4. Modify this README.md file to include documentation about your solution and instructions to deploy
-5. Submit a pull request to the original repository
-6. Contact Dr. Kopper to schedule a meeting and demonstrate the project
+### Random Deletion
+- Implemented a 'DeleteRandomObject' method in the 'ObjectSpawner' script to randomly delete spawned objects.
 
-## Evaluation Criteria
-Your submission will be evaluated based on:
-- Correct implementation of VR interactions
-- Code quality and organization
-- Performance optimization
-- Creativity in solving the challenge
-- Quality of documentation and deployment instructions
-
-
-Good luck!
+## Deployment Instructions
+1. Clone this repository.
+2. Open the project in Unity (version 2023.2 or higher recommended).
+3. Press the Play button to test the features.
+4. Interact with objects and use the UI to spawn and delete objects dynamically.
