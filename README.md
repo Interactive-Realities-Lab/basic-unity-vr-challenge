@@ -1,40 +1,23 @@
-# Unity VR Development Test Project for Interactive Reality Lab (Dr. Kopper)
+# Basic Unity VR Challenge
 
-## Overview
-This repository contains a bare Unity project set up for VR development. Your task is to demonstrate your Unity and VR development skills by completing the challenge described below.
+# Project Summary:
+This project demonstrates essential VR features like teleportation, object interactions, and UI updates using Unity.
 
-## Challenge
-Create a simple VR interaction scenario with the following requirements:
+# Features
+- Teleportation: Move around the VR scene.
+- Interactive Objects: 
+  - Cube changes color on interaction.
+  - Sphere expands/contracts.
+  - Button updates the UI.
+- UI Panel: Displays object interaction counts.
 
-1. Implement a VR player controller that allows for teleportation movement
-2. Create three interactable objects in the scene:
-   - A cube that changes color when grabbed
-   - A sphere that can be thrown and bounces realistically
-   - A button that, when pressed, spawns a new random object in the scene
-3. Implement a simple UI element that displays the number of objects in the scene
-4. Ensure the project runs smoothly on a VR headset (e.g., Oculus Quest 2, Mock HMD, Meta XR Simulator, etc...).
+# How to Run
+1. Clone the repository:
+   bash
+   git clone https://github.com/mamunur2/basic-unity-vr-challenge.git
+   cd basic-unity-vr-challenge
 
-Note: You are encouraged to go beyond these minimal requirements and showcase your creativity and skills.
+2. Open the project in Unity (2022 or newer).
+3. Press Play to test the project in Unity Editor.
 
-## Deadline
-The project is due 2 weeks after it's assigned.
-
-## Submission
-To submit your solution:
-1. Fork this repository
-2. Complete the challenge
-3. Push your changes to your forked repository
-4. Modify this README.md file to include documentation about your solution and instructions to deploy
-5. Submit a pull request to the original repository
-6. Contact Dr. Kopper to schedule a meeting and demonstrate the project
-
-## Evaluation Criteria
-Your submission will be evaluated based on:
-- Correct implementation of VR interactions
-- Code quality and organization
-- Performance optimization
-- Creativity in solving the challenge
-- Quality of documentation and deployment instructions
-
-
-Good luck!
+Thank you!
